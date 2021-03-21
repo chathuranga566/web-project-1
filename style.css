@@ -1,0 +1,86 @@
+.header{
+    margin: 10px;
+    padding: 0px;
+    font-family: Century Gothic;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(4.jpg);
+    width: 100%; 
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    float: right;
+}
+ul li{
+    margin: 5px;
+    display: inline-block;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s all;
+}
+.link:hover{
+    background-color: #fff;
+    color:#000;
+    padding: 10px 40px;
+}
+#home a{
+    background-color: #fff;
+    color: #000;
+}
+.img{
+    width: 150px;
+    height: 40px;
+    margin:20px;
+    border: 2px solid black;
+    
+}
+.name{
+    position: absolute;
+    top: 50%;
+    margin-left: 25%;
+    transform: translate(-50,-50);
+}
+.name h1{
+    text-align: center;
+    font-family: 'Cormorant Unicase', serif;
+    font-style: italic;
+    font-size: 50px;
+    color: #fff;
+    margin-top: inherit;
+}
+.button{
+    display: flex;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    transform: translate(-50,-50);
+}
+.link1{
+    border: 1px solid white;
+    background: transparent;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding:0px 10px;
+    transition: 0.6s all;
+}
+.link1:hover{
+    padding: 5px 15px;
+}
+.link1{
+    text-decoration: none;
+    color: #fff;
+}
